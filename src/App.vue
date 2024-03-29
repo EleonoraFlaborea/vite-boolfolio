@@ -1,7 +1,7 @@
 <script>
 import axios from 'axios';
-import AppHeader from '.components/AppHeader.vue';
-import ProjectCard from '.components/projects/ProjectCard.vue';
+import AppHeader from './components/AppHeader.vue';
+import ProjectCard from './components/projects/ProjectCard.vue';
 const endpoint = 'http://localhost:8000/api/projects/';
 
 export default {
