@@ -8,7 +8,7 @@ const router = createRouter({
     routes: [
         { path: '/', component: HomePage },
         { path: '/singleproject', component: SingleProjectPage },
-
+        { path: '/:pathMatch(.*)*', component: NotFoundPage },
     ]
 });
 
